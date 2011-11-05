@@ -27,9 +27,12 @@ my %WriteMakefileArgs = (
   'PREREQ_PM' => {
     'Exporter' => '0',
     'List::MoreUtils' => '0',
-    'utf8' => '0'
+    'base' => '0',
+    'strict' => '0',
+    'utf8' => '0',
+    'warnings' => '0'
   },
-  'VERSION' => '0.01_1',
+  'VERSION' => '0.02',
   'test' => {
     'TESTS' => 't/*.t'
   }
